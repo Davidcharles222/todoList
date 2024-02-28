@@ -80,8 +80,9 @@ body {
 }
 
 
-.todo__item > input[type='checkbox']:checked  + div {
-    text-decoration:line-through;
+.todo__item > input[type='checkbox']:checked  + div {/* quando for clicado no imput irá */
+    text-decoration:line-through;/* marcar com uma linha ao meio das palavras */
+    /* o label permite clicar na caixa inteira e selecionar o imput */
 }
 
 .todo__new-item{
